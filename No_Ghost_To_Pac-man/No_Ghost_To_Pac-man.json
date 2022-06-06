@@ -1,0 +1,26 @@
+{
+   "Name":"No Ghost to Pac-man",   
+ "Icon":"https://fortnite-api.com/images/cosmetics/br/BID_A_009_Grapefruit/icon.png",
+ "Swapicon":"https://fortnite-api.com/images/cosmetics/br/bid_882_eerieghost_y9n1t/icon.png",
+    "Type":"Backblings",
+    "Message":"false",
+    "Assets":[
+       {
+          "CompressionType":"oodle",
+          "AssetPath":"/Game/Characters/CharacterParts/Backpacks/CP_Backpack_EerieGhost",
+          "AssetUcas":"pakchunk10-WindowsClient",
+          "Swaps":[
+             {
+                "type":"string",
+                "search":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_EerieGhost/FX/Mesh/FX_SM_EerieGhostEmblem_3DHB.FX_SM_EerieGhostEmblem_3DHB",
+                "replace":"/Game/Accessories/FORT_Backpacks/Backpack_F_MED_Grapefruit/VFX/MI_Grapefruit_Backpack.MI_Grapefruit_Backpack"
+             },
+             {
+               "type":"string",
+               "search":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_EerieGhost/FX/FX/NS_EerieGhost_Backpack_Idle.NS_EerieGhost_Backpack_Idle",
+               "replace":"/Game/Accessories/FORT_Backpacks/Backpack_F_MED_Grapefruit/VFX/NS_Grapefruit_Backpack.NS_Grapefruit_Backpack"
+             }
+          ]
+       }
+    ]
+ }
