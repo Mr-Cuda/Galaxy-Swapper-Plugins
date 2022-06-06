@@ -1,0 +1,61 @@
+{
+"Name":"Torin to Mecha Suit Torin",   
+"Icon":"https://fortnite-api.com/images/cosmetics/br/CID_A_417_Athena_Commando_F_Armadillo/icon.png",
+"Swapicon":"https://fortnite-api.com/images/cosmetics/br/CID_A_200_Athena_Commando_F_GhostHunter/icon.png",
+   "Type":"Skin:Mesh",
+   "Message":"false",
+   "Assets":[
+      {
+         "CompressionType":"oodle",
+         "AssetPath":"/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_GhostHunter",
+         "AssetUcas":"pakchunk10-WindowsClient",
+         "Swaps":[
+            {
+               "type":"string",
+               "search":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Ghost_Hunter/Meshes/F_MED_Ghost_Hunter.F_MED_Ghost_Hunter",
+               "replace":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Armadillo/Meshes/F_MED_Armadillo.F_MED_Armadillo"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Ghost_Hunter/Meshes/F_MED_Ghost_Hunter_AnimBP.F_MED_Ghost_Hunter_AnimBP_C",
+               "replace":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Armadillo/Meshes/F_MED_Armadillo_AnimBP.F_MED_Armadillo_AnimBP_C"
+            }
+         ]
+      },
+      {
+         "CompressionType":"oodle",
+         "AssetPath":"/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_GhostHunter_Armor_FaceAcc",
+         "AssetUcas":"pakchunk10-WindowsClient",
+         "Swaps":[
+            {
+               "type":"string",
+               "search":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Ghost_Hunter_Armor/Meshes/Parts/F_MED_Ghost_Hunter_Armor_FaceAcc.F_MED_Ghost_Hunter_Armor_FaceAcc",
+               "replace":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Armadillo_Armored/Meshes/Parts/F_MED_Armadillo_Armored_FaceAcc.F_MED_Armadillo_Armored_FaceAcc"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Ghost_Hunter_Armor/Meshes/Parts/F_MED_Ghost_Hunter_Armor_FaceAcc_AnimBP.F_MED_Ghost_Hunter_Armor_FaceAcc_AnimBP_C",
+               "replace":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Armadillo_Armored/Meshes/Parts/F_MED_Armadillo_Armored_FaceAcc_Skeleton_AnimBlueprint.F_MED_Armadillo_Armored_FaceAcc_Skeleton_AnimBlueprint_C"
+            }
+         ]
+      },
+      {
+         "CompressionType":"oodle",
+         "AssetPath":"/Game/Athena/Heroes/Meshes/Bodies/CP_Athena_Body_F_GhostHunter_Armor",
+         "AssetUcas":"pakchunk10-WindowsClient",
+         "Swaps":[
+            {
+               "type":"string",
+               "search":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Ghost_Hunter_Armor_Dark/Meshes/F_MED_Ghost_Hunter_Armor_Dark.F_MED_Ghost_Hunter_Armor_Dark",
+               "replace":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Armadillo_Armored/Meshes/F_MED_Armadillo_Armored.F_MED_Armadillo_Armored"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Ghost_Hunter_Armor_Dark/Meshes/F_MED_Ghost_Hunter_Armor_Dark_AnimBP.F_MED_Ghost_Hunter_Armor_Dark_AnimBP_C",
+               "replace":"/Game/Characters/Player/Female/Medium/Bodies/F_MED_Armadillo_Armored/Meshes/F_MED_Armadillo_Armored_Skeleton_AnimBlueprint.F_MED_Armadillo_Armored_Skeleton_AnimBlueprint_C"
+            }
+         ]
+      }
+   ]
+}
+
