@@ -10,3 +10,7 @@
 - you can find their site [here](https://www.galaxyswapperv2.com/)
 
 - if you want to know how plugins are created visit their [page](https://www.galaxyswapperv2.com/Redirects/Plugins.html)
+
+# Authors
+
+- Galaxy Swapper is created by Wslt#7904
