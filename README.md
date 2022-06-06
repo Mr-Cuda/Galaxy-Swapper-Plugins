@@ -11,6 +11,12 @@
 
 - if you want to know how plugins are created visit their [page](https://www.galaxyswapperv2.com/Redirects/Plugins.html)
 
-# Authors
+# Author
 
 - Galaxy Swapper is created by Wslt#7904
+
+# do i have permission to do this?
+
+- no
+
+- create a pull request if there are any problems
