@@ -1,0 +1,56 @@
+{
+    "Name": "Rey's Quarterstaff To Raider's Revenge",
+    "Swapicon": "https://fortnite-api.com/images/cosmetics/br/Pickaxe_ID_328_GalileoRocket_SNC0L/icon.png",
+    "Icon": "https://fortnite-api.com/images/cosmetics/br/Pickaxe_Lockjaw/icon.png",
+    "Type": "PickAxe",
+    "Message": "Made By Elii",
+    "Assets": [
+      {
+        "CompressionType": "Oodle",
+        "AssetPath": "/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_GalileoRocket",
+        "AssetUcas": "pakchunk10-WindowsClient",
+        "Swaps": [
+          {
+            "type":"string",
+            "search": "/Game/Weapons/FORT_Melee/Pickaxe_Galileo_Rocket/Meshes/Galileo_Rocket.Galileo_Rocket",
+            "replace": "/Game/Weapons/FORT_Melee/Meshes/SK_Pickaxe_PostApocalyptic.SK_Pickaxe_PostApocalyptic"
+          },
+          {
+            "type":"string",
+            "search": "/Game/Athena/Sounds/Weapons/PickAxes/Galileo_Rocket/PickAxe_Galileo_Rocket_Swing_Cue.PickAxe_Galileo_Rocket_Swing_Cue",
+            "replace": "/Game/Athena/Sounds/Weapons/PickAxes/PickAxe_Lockjaw_Swing_Athena_Cue.PickAxe_LockJaw_Swing_Athena_Cue"
+          },
+          {
+            "type":"string",
+            "search": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-GalileoRocketPickaxe-L.T-Icon-Pickaxes-GalileoRocketPickaxe-L",
+            "replace": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic-L.T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic-L"
+          },
+          {
+            "type":"string",
+            "search": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-GalileoRocketPickaxe.T-Icon-Pickaxes-GalileoRocketPickaxe",
+            "replace": "/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic.T-Icon-Pickaxes-SK-Pickaxe-PostApacolyptic",
+          },
+          {
+            "type":"string",
+            "search":"/Game/Athena/Sounds/Weapons/PickAxes/Galileo_Rocket/PickAxe_Galileo_Rocket_Ready_Cue.PickAxe_Galileo_Rocket_Ready_Cue",
+            "replace":"/Game/Athena/Sounds/Weapons/PickAxes/PickAxe_Lockjaw_Ready_Athena_Cue.PickAxe_LockJaw_Ready_Athena_Cue"
+          },
+          {
+       	 "type":"string",
+             "search":"/Game/Athena/Sounds/Weapons/PickAxes/Galileo_Rocket/PickAxe_Galileo_Rocket_Impact_Cue.PickAxe_Galileo_Rocket_Impact_Cue",
+             "replace":"/Game/Athena/Sounds/Weapons/PickAxes/PickAxe_Lockjaw_Impact_Athena_Cue.PickAxe_LockJaw_Impact_Athena_Cue"          
+          },
+          {
+             "type":"string",
+             "search":"/Game/Athena/Sounds/Weapons/PickAxes/Galileo_Rocket/PickAxe_Galileo_Rocket_Equip_Cue.PickAxe_Galileo_Rocket_Equip_Cue",
+             "replace":"/Game/Athena/Sounds/Weapons/PickAxes/PickAxe_Lockjaw_Swing_Athena_Cue.PickAxe_LockJaw_Swing_Athena_Cue"
+          },
+          {
+             "type":"string",
+             "search":"/Game/Athena/Sounds/Weapons/PickAxes/Galileo_Rocket/PickAxe_Galileo_Rocket_EnemyImpact_Cue.PickAxe_Galileo_Rocket_EnemyImpact_Cue",
+             "replace":"/Game/Sounds/Fort_Impact_Sounds/Flesh/Player_Impact_PA_LockJaw_Cue.Player_Impact_PA_LockJaw_Cue"
+          }
+        ]
+      }
+    ]
+}
