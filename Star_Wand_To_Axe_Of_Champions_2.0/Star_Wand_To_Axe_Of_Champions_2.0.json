@@ -1,0 +1,67 @@
+{
+   "Name":"Star Wand to The Axe Of Champions 2.0",   
+   "Icon":"https://fortnite-api.com/images/cosmetics/br/Pickaxe_ID_804_FNCSS20Male/icon.png",
+   "Swapicon":"https://fortnite-api.com/images/cosmetics/br/Pickaxe_ID_179_StarWand/icon.png",
+   "Type":"Pickaxes",
+   "Message":"MODIFIED BY ! ! Mega#7930, ORIGINAL_FILE FROM Marki#2174",
+   "Assets":[
+      {
+         "CompressionType":"oodle",
+         "AssetPath":"/Game/Athena/Items/Weapons/WID_Harvest_Pickaxe_StarWand",
+         "AssetUcas":"pakchunk10-WindowsClient",
+         "Swaps":[
+            {
+               "type":"string",
+               "search":"/Game/Weapons/FORT_Melee/Pickaxe_StarWand/Meshes/Star_Wand_Axe.Star_Wand_Axe",
+               "replace":"/Game/Weapons/FORT_Melee/Pickaxe_FNCS_S20_Male/Meshes/FNCS_S20_Male_Axe.FNCS_S20_Male_Axe"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Weapons/FORT_Melee/Pickaxe_StarWand/FX/P_StarWand_PickAxe_Idle.P_StarWand_PickAxe_Idle",
+               "replace":"/Game/HiIfYouSeeThis"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Weapons/FORT_Melee/Pickaxe_StarWand/FX/P_Melee_Trail_StarWand.P_Melee_Trail_StarWand",
+               "replace":"/Game/Weapons/FORT_Melee/Pickaxe_FNCS_S20_Male/FX/NS_FNCS_S20_Trail.NS_FNCS_S20_Trail"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Weapons/FORT_Melee/Pickaxe_NeonGraffiti/Skins/Lava_Female/FX/NS_Pickaxe_NeonGraffiti_Lava_Impact.NS_Pickaxe_NeonGraffiti_Lava_Impact",
+               "replace":"/Game/Weapons/FORT_Melee/Pickaxe_FNCS_S20_Male/FX/NS_FNCS_S20_Impact.NS_FNCS_S20_Impact"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Athena/Sounds/Weapons/PickAxes/StarWand/PickAxe_StarWand_Impact_Player_Athena_Cue.PickAxe_StarWand_Impact_Player_Athena_Cue",
+               "replace":"/Game/Athena/Sounds/Weapons/PickAxes/FNCSS20/PickaxeImpactEnemy_FNCSS20.PickaxeImpactEnemy_FNCSS20"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Weapons/FORT_Melee/Pickaxe_StarWand/Meshes/Star_Wand_Axe.Star_Wand_Axe",
+               "replace":"/Game/TheJ"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Athena/Sounds/Weapons/PickAxes/StarWand/PickAxe_StarWand_Ready_Athena_Cue.PickAxe_StarWand_Ready_Athena_Cue",
+               "replace":"/Game/Athena/Sounds/Weapons/PickAxes/FNCSS20/PickaxeReady_FNCSS20.PickaxeReady_FNCSS20"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Athena/Sounds/Weapons/PickAxes/StarWand/PickaxeSwing_Star-Wand.PickaxeSwing_Star-Wand",
+               "replace":"/Game/Athena/Sounds/Weapons/PickAxes/FNCSS20/PickaxeSwing_FNCSS20.PickaxeSwing_FNCSS20"
+            },
+            {
+               "type":"string",
+               "search":"/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-Star-Wand-Axe-L.T-Icon-Pickaxes-Star-Wand-Axe-L",
+               "replace":"/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-FNCSS20Pickaxe-L.T-Icon-Pickaxes-FNCSS20Pickaxe-L"
+            },
+            {
+               "type":"string",
+               "search":"/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-Star-Wand-Axe.T-Icon-Pickaxes-Star-Wand-Axe",
+               "replace":"/Game/UI/Foundation/Textures/Icons/Weapons/Items/T-Icon-Pickaxes-FNCSS20Pickaxe.T-Icon-Pickaxes-FNCSS20Pickaxe"
+            }
+         ]
+      }
+   ]
+}
+
