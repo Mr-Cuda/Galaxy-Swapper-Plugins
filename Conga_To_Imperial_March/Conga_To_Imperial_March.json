@@ -1,0 +1,36 @@
+{
+    "Name":"Conga To Imperial March",
+    "Icon":"https://fortnite-api.com/images/cosmetics/br/EID_Realm/icon.png",
+    "Swapicon":"https://fortnite-api.com/images/cosmetics/br/EID_Conga/icon.png",
+    "Type":"Emote",
+    "Message":"false",
+    "Assets":[
+       {
+          "CompressionType":"oodle",
+          "AssetPath":"/Game/Athena/Items/Cosmetics/Dances/EID_Conga",
+          "AssetUcas":"pakchunk10-WindowsClient",
+          "Swaps":[
+             {
+                "type":"string",
+                "search":"/Game/Animation/Game/MainPlayer/Emotes/Conga/Emote_CongaLine_CMM_M.Emote_CongaLine_CMM_M",
+                "replace":"/Game/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CMM_M.Emote_Realm_CMM_M"
+             },
+             {
+               "type":"string",
+               "search":"/Game/Animation/Game/MainPlayer/Emotes/Conga/Emote_CongaLine_CMF_M.Emote_CongaLine_CMF_M",
+               "replace":"/Game/Animation/Game/MainPlayer/Emotes/Realm/Emote_Realm_CMF_M.Emote_Realm_CMF_M"
+            },
+             {
+              "type":"string",
+              "search": "/Game/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Conga-L.T-Icon-Emotes-E-Conga-L",
+              "replace": "/Game/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Realm-L.T-Icon-Emotes-E-Realm-L"
+            },
+            {
+              "type":"string",
+              "search": "/Game/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Conga.T-Icon-Emotes-E-Conga",
+              "replace": "/Game/UI/Foundation/Textures/Icons/Emotes/T-Icon-Emotes-E-Realm.T-Icon-Emotes-E-Realm"
+            }
+          ]
+       }
+    ]
+  }
