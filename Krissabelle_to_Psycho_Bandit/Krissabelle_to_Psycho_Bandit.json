@@ -1,0 +1,85 @@
+{
+  "Name": "Krisabelle to Psycho Bandit",
+  "Icon": "https://fortnite-api.com/images/cosmetics/br/CID_515_Athena_Commando_M_BarbequeLarry/icon.png",
+  "Swapicon": "https://fortnite-api.com/images/cosmetics/br/CID_A_310_Athena_Commando_F_ScholarFestive/icon.png",
+  "Type": "Skin:Mesh",
+  "Message": "Made by Me",
+  "Assets": [
+    {
+      "CompressionType": "oodle",
+      "AssetPath": "/Game/Athena/Heroes/Meshes/Bodies/CP_Body_Commando_F_ScholarFestive",
+      "AssetUcas": "",
+      "Swaps": [
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Meshes/F_MED_Scholar.F_MED_Scholar",
+          "replace":"/Game/Characters/Player/Male/Medium/Bodies/M_MED_BarbequeLarry/Meshes/M_MED_BarbequeLarry.M_MED_BarbequeLarry"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Meshes/F_MED_Scholar_AnimBP.F_MED_Scholar_AnimBP_C",
+          "replace": "/Game/Characters/Player/Male/Medium/Bodies/M_MED_BarbequeLarry/Meshes/M_MED_BarbequeLarry_AnimBP.M_MED_BarbequeLarry_AnimBP_C"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Skins/Festive/Materials/F_MED_Scholar_Festive_Body.F_MED_Scholar_Festive_Body",
+          "replace": "/Game/Jean.Jean"
+        }
+      ]
+    },
+    {
+      "CompressionType": "oodle",
+      "AssetPath": "/Game/Characters/CharacterParts/Female/Medium/Heads/CP_Head_F_ScholarFestive",
+      "AssetUcas": "",
+      "Swaps": [
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Heads/F_MED_CAU_Jane_Head_01/Meshes/F_MED_CAU_Jane_Head_01.F_MED_CAU_Jane_Head_01",
+          "replace": "/Game/Characters/Player/Male/Medium/Heads/M_MED_BarbequeLarry_Head/Meshes/Male_Medium_BarbequeLarry_Head.Male_Medium_BarbequeLarry_Head"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Heads/F_MED_CAU_Jane_Head_01/Meshes/F_MED_CAU_Jane_Head_01_AnimBP_Child.F_MED_CAU_Jane_Head_01_AnimBP_Child_C",
+          "replace": "/Game/Characters/Player/Male/Medium/Heads/M_MED_BarbequeLarry_Head/Meshes/Male_Medium_BarbequeLarry_Head_AnimBP.Male_Medium_BarbequeLarry_Head_AnimBP_C"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Skins/Festive/Materials/F_MED_Scholar_Festive_Head.F_MED_Scholar_Festive_Head",
+          "replace": "/Game/Jean.Jean"
+        }
+      ]
+    },
+    {
+      "CompressionType": "oodle",
+      "AssetPath": "/Game/Characters/CharacterParts/FaceAccessories/CP_F_MED_ScholarFestive_FaceAcc",
+      "AssetUcas": "",
+      "Swaps": [
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Meshes/Parts/F_MED_Scholar.F_MED_Scholar",
+          "replace": "/Game/Characters/Player/Male/Medium/Bodies/M_MED_BarbequeLarry/Meshes/Parts/M_MED_BarbequeLarry_FaceAcc.M_MED_BarbequeLarry_FaceAcc"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Meshes/Parts/F_MED_Scholar_AnimBP.F_MED_Scholar_AnimBP_C",
+          "replace": "/Game/Characters/Player/Male/Medium/Bodies/M_MED_BarbequeLarry/Meshes/Parts/M_MED_BarbequeLarry_FaceAcc_AnimBP.M_MED_BarbequeLarry_FaceAcc_AnimBP_C"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Skins/Festive/Materials/F_MED_Scholar_Festive_Hair.F_MED_Scholar_Festive_Hair",
+          "replace": "/Game/Jean.Jean"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Skins/Ghoul/Materials/F_MED_Scholar_Glass_Ghoul_FaceAcc.F_MED_Scholar_Glass_Ghoul_FaceAcc",
+          "replace": "/Game/Jean.Jean"
+        },
+        {
+          "type": "string",
+          "search": "/Game/Characters/Player/Female/Medium/Bodies/F_MED_Scholar/Skins/Festive/Materials/F_MED_Scholar_Festive_FaceAcc.F_MED_Scholar_Festive_FaceAcc",
+          "replace": "/Game/Jean.Jean"
+        }
+      ]
+    }
+  ]
+}
