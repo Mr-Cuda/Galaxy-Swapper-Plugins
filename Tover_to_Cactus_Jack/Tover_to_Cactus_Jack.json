@@ -1,0 +1,31 @@
+{
+   "Name":"Tover to Cactus Jack",
+   "Icon":"https://fortnite-api.com/images/cosmetics/br/BID_468_Cyclone/icon.png",
+   "Swapicon":"https://fortnite-api.com/images/cosmetics/br/BID_A_026_CollectableMale/icon.png",
+   "Type":"Backblings:Mesh",
+   "Message":"Made by Me",
+   "Assets":[
+      {
+         "CompressionType":"oodle",
+         "AssetPath":"/Game/Characters/CharacterParts/Backpacks/CP_Backpack_CollectableMale",
+         "AssetUcas":"",
+         "Swaps":[
+            {
+               "type":"string",
+               "search":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_Collectable/Meshes/M_MED_Collectable_Pack.M_MED_Collectable_Pack",
+               "replace":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_Cyclone/Meshes/M_MED_Cyclone.M_MED_Cyclone" 
+            },
+            {
+               "type":"string",
+               "search":"/Game/tc.tc",
+               "replace":"/Game/tc.tc"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_Collectable/Meshes/M_MED_Collectable_Pack_AnimBP.M_MED_Collectable_Pack_AnimBP_C",
+               "replace":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_Cyclone/Meshes/M_MED_Cyclone_AnimBP.M_MED_Cyclone_AnimBP_C"
+            }
+         ]
+      }
+   ]
+}
