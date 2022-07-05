@@ -1,0 +1,31 @@
+{
+   "Name":"Bushy's Bulb to Rainbow Clover",
+   "Icon":"https://fortnite-api.com/images/cosmetics/br/BID_229_LuckyRiderMale/icon.png",
+   "Swapicon":"https://fortnite-api.com/images/cosmetics/br/BID_A_028_RealityBloom/icon.png",
+   "Type":"Backblings:Mesh",
+   "Message":"Made by Me",
+   "Assets":[
+      {
+         "CompressionType":"oodle",
+         "AssetPath":"/Game/Characters/CharacterParts/Backpacks/CP_Backpack_RealityBloom",
+         "AssetUcas":"",
+         "Swaps":[
+            {
+               "type":"string",
+               "search":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_Reality_Bloom/Meshes/M_MED_Reality_Bloom_Pack.M_MED_Reality_Bloom_Pack",
+               "replace":"/Game/Accessories/FORT_Backpacks/M_MED_Lucky_Rider_Backpack/Meshes/M_MED_Lucky_Rider_Backpack.M_MED_Lucky_Rider_Backpack" 
+            },
+            {
+               "type":"string",
+               "search":"/Game/tc.tc",
+               "replace":"/Game/tc.tc"
+            },
+            {
+               "type":"string",
+               "search":"/Game/Accessories/FORT_Backpacks/Backpack_M_MED_Reality_Bloom/Meshes/M_MED_Reality_Bloom_Pack_AnimBP.M_MED_Reality_Bloom_Pack_AnimBP_C",
+               "replace":"/Game/Accessories/FORT_Backpacks/M_MED_Lucky_Rider_Backpack/Meshes/M_MED_Lucky_Rider_Backpack_AnimBP.M_MED_Lucky_Rider_Backpack_AnimBP_C"
+            }
+         ]
+      }
+   ]
+}
